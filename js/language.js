@@ -1,0 +1,1 @@
+$(function(){$(".ex_fr").on("click",function(){$(".fr").show();$(".en").hide()})});$(function(){$(".ex_en").on("click",function(){$(".fr").hide();$(".en").show()})});$(function init(){$(".fr").hide()});
