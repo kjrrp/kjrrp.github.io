@@ -20,7 +20,6 @@ header = '''<!DOCTYPE html>
     <!-- meta stuff -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="This is the personal website of Kévin Phemius." />
-    <link rel="author" href="https://plus.google.com/+KévinPhemius" />
     <meta property="og:title" content="kjrrp's Site" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="../img/website/apple-touch-icon-114x114.png" />
