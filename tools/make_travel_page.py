@@ -33,7 +33,7 @@ header = '''<!DOCTYPE html>
     <meta name="twitter:description" content="This is the personal website of Kévin Phemius." />
     <meta name="twitter:image" content="../img/website/apple-touch-icon-114x114.png" />
     <!-- stylesheets and icons -->
-    <link href='https://fonts.googleapis.com/css?family=Cantata+One' rel='stylesheet' type='text/css'>
+    <link href='../font/CantataOne.woff2' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/style.css">
     <link rel="stylesheet" type="text/css" href="../stylesheets/lightbox.css">
     <link rel="shortcut icon" href="../img/website/favicon.png">
