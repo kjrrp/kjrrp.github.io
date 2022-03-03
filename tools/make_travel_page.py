@@ -151,7 +151,7 @@ def main(argv):
     except Exception:
         pass
     if not path:
-        print "Use make_travel_page.py path_to_picture_folder"
+        print("Use make_travel_page.py path_to_picture_folder")
         sys.exit(1)
     folders = os.popen('ls %s' % path).read().split()
     if folders:
@@ -162,7 +162,7 @@ def main(argv):
             f.write(first_index)
         for folder in folders:
             pictures = os.popen('ls -v %s%s/pic*' % (path, folder)).read().split()
-            print "Parsing folder %s" % (folder)
+            print("Parsing folder %s" % (folder))
             if pictures:
                 pics += len(pictures)
                 with open("travel_index.html", "a") as f:
@@ -195,8 +195,8 @@ def main(argv):
         with open("travel_index.html", "a") as f:
             f.write(last_index)
             f.write(footer)
-    print "Made travel index with %s folders (%s pictures, %s videos)" % (len(folders), pics, vids)
-    print "Finished in %ss" % round(time.time() - start, 2)
+    print("Made travel index with %s folders (%s pictures, %s videos)" % (len(folders), pics, vids))
+    print("Finished in %ss" % round(time.time() - start, 2))
 
 if __name__ == '__main__':
     main(sys.argv[1:])
