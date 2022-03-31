@@ -85,7 +85,7 @@ footer = '''    <br><br>
     <footer>
         <div class="center">
             <xsmall>
-                Copyright ©
+                Copyright © 2014 - 
                 <script>document.write(new Date().getFullYear())</script> Kévin Phemius.<br> All rights reserved.
             </xsmall>
         </div>
