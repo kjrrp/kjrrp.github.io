@@ -17,12 +17,15 @@ header = '''<!DOCTYPE html>
 <head>
     <title>K.</title>
     <meta charset="utf-8" />
-    <link href='../stylesheets/cantata-one.css' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/style.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/lightbox.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/cantata-one.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/lightbox.css">
     <!-- Definitely use these for development -->
-    <script src="js/jquery-1.11.0.min.js"></script>
-    <script src="js/jquery-ui-1.8.20.custom.min.js"></script>
+    <script src="/js/jquery-1.11.0.min.js"></script>
+    <script src="/js/jquery-ui-1.8.20.custom.min.js"></script>
+	<script src="/js/language.js"></script>
+    <!-- html5ightbox -->
+    <script src="/js/html5lightbox.js"></script>
     <script>
         $(function () {
             $("#header").load("/header.html");
