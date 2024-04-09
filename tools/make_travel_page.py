@@ -61,24 +61,24 @@ first_item = '''                <h2 id="title" class="fr">%s</h2>
                 <p class="en"></p>
                 <!-- 1st -->
                 <div class="center">
-                    <a href="https://kjrrp.tk/pics/travel/%s" class="html5lightbox"
+                    <a href="https://kjrrp.fr/pics/travel/%s" class="html5lightbox"
                         data-group="mygroup" data-transition="slide" data-fullscreenmode="true" data-autoplay="false"
-                        data-thumbnail="https://kjrrp.tk/pics/travel/%s" title=""
+                        data-thumbnail="https://kjrrp.fr/pics/travel/%s" title=""
                         style="background: #ddd; text-decoration: none">
                         <img alt="kjrrp" src="../img/website/play.jpg" class="img-circle"
                             style="vertical-align:middle;">
                     </a>
                     <!-- Rest -->
 '''
-image = '''                    <a href="https://kjrrp.tk/pics/travel/%s" class="html5lightbox"
+image = '''                    <a href="https://kjrrp.fr/pics/travel/%s" class="html5lightbox"
                         data-group="mygroup" style="display:none" data-transition="slide" data-fullscreenmode="true"
-                        data-autoplay="false" data-thumbnail="https://kjrrp.tk/pics/travel/%s"
+                        data-autoplay="false" data-thumbnail="https://kjrrp.fr/pics/travel/%s"
                         title=""></a>
 '''
-video = '''                    <a href="https://kjrrp.tk/pics/travel/%s" class="html5lightbox"
+video = '''                    <a href="https://kjrrp.fr/pics/travel/%s" class="html5lightbox"
                         data-group="mygroup" style="display:none" data-transition="slide" data-fullscreenmode="true"
-                        data-autoplay="false" data-thumbnail="https://kjrrp.tk/pics/travel/%s"
-                        data-webm="https://kjrrp.tk/pics/travel/%s" title=""></a>
+                        data-autoplay="false" data-thumbnail="https://kjrrp.fr/pics/travel/%s"
+                        data-webm="https://kjrrp.fr/pics/travel/%s" title=""></a>
 '''
 last_item = '''                    <blockquote align="center">
                         <p class="fr"><cite>Cliquez sur l'icône pour lancer le slideshow.</cite></p>
