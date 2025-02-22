@@ -7,23 +7,13 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/cantata-one.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/style.css">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/lightbox.css">
     <!-- Definitely use these for development -->
     <script src="/js/jquery-3.7.1.slim.min.js"></script>
     <script src="/js/jquery-ui-1.8.20.custom.min.js"></script>
-	<script src="/js/language.js"></script>
-    <!-- html5ightbox -->
-    <script src="/js/html5lightbox.js"></script>
-    <script>
-        $(function () {
-            $("#header").load("/header.html");
-            $("#footer").load("/footer.html");
-        });
-    </script>
 </head>
 
 <body class='no-js' itemscope itemtype="https://schema.org/CreativeWork" style="background-color:#2B2B2B;">
-	<div id="header"></div>
+	<div id="header-placeholder"></div>
     <meta itemprop="name" content="kjrrp's website" />
 	<meta itemprop="description" content="This is the personal site of Kévin Phemius." />
 	<div class="" style="background-color:#2B2B2B;margin-bottom:-100px;">
@@ -41,11 +31,9 @@
 					<a href="./boat.html">Oh captain my captain</a><br>
 					<a href="./travel_art.html">Travel Art</a><br>
 					<a href="./balkans_pt1.html">Balkans, pt.1</a><br>
-					<a href="./cheveux.html">Avant j'avais des cheveux...</a><br>
 					<a href="./kubit.html">Say hello to my little friend</a><br>
 					<a href="./new_york.html">New York in 6 hours</a><br>
 					<a href="./europe.html">Europe</a><br>
-					<a href="./having_a_blog.html">Having a blog</a><br>
 				</p>
 			</div>
 		</div>
@@ -53,7 +41,8 @@
 	</div>
 	<br><br>
 	<!-- Social icons -->
-	<div id="footer"></div>
+    <div id="footer-placeholder"></div>
+    <script src="/js/header-footer.js"></script>
 </body>
 
 </html>

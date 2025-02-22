@@ -134,14 +134,14 @@ img.cube5h {max-height:500px;max-width:500px; text-align:center;vertical-align: 
 img.cube6h {max-height:600px;max-width:600px; text-align:center;vertical-align: middle; margin: auto;}
 img.cube7h {max-height:700px;max-width:700px; text-align:center;vertical-align: middle; margin: auto;}
 img.cube8h {max-height:800px;max-width:800px; text-align:center;vertical-align: middle; margin: auto;}
-img.cube1w {display:block;max-width:200px; text-align:center;vertical-align: middle; margin: auto;}
-img.cube2w {display:block;max-width:200px; text-align:center;vertical-align: middle; margin: auto;}
-img.cube3w {display:block;max-width:300px; text-align:center;vertical-align: middle; margin: auto;}
-img.cube4w {display:block;max-width:400px; text-align:center;vertical-align: middle; margin: auto;}
-img.cube5w {display:block;max-width:500px; text-align:center;vertical-align: middle; margin: auto;}
-img.cube6w {display:block;max-width:600px; text-align:center;vertical-align: middle; margin: auto;}
-img.cube7w {display:block;max-width:700px; text-align:center;vertical-align: middle; margin: auto;}
-img.cube8w {display:block;max-width:800px; text-align:center;vertical-align: middle; margin: auto;}
+img.cube1w {display:block;max-width:200px; text-align:center; margin: auto;}
+img.cube2w {display:block;max-width:200px; text-align:center; margin: auto;}
+img.cube3w {display:block;max-width:300px; text-align:center; margin: auto;}
+img.cube4w {display:block;max-width:400px; text-align:center; margin: auto;}
+img.cube5w {display:block;max-width:500px; text-align:center; margin: auto;}
+img.cube6w {display:block;max-width:600px; text-align:center; margin: auto;}
+img.cube7w {display:block;max-width:700px; text-align:center; margin: auto;}
+img.cube8w {display:block;max-width:800px; text-align:center; margin: auto;}
 img.cube {max-width: 95%; max-height: 95%; vertical-align: middle; margin: auto; display:inline;}
 a.cube:hover, a.cube:focus { color: #eee; cursor: pointer; background: #ddd;}
 .img-circle, .avatar {-border-radius: 500px;-moz-border-radius: 500px;border-radius: 500px; width: 50px; height: 50px;}
@@ -261,3 +261,63 @@ img.desktop{display:inline;}
         .row-fluid [class*="span"] { width: 96%; padding-left: 5px;} 
         .row-fluid [class*="offset"] { margin-left: 0%; }       
     }
+
+/* Carousel
+================================================== */
+.mono-carousel-container {
+  position: fixed; /* Fixed positioning to cover the whole viewport */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000; /* Ensures it appears above other elements */
+  background: rgba(0, 0, 0, 0.8); /* Dark background for overlay effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  width: 100%;
+  max-width: 90vw; /* Max width relative to the viewport width */
+  max-height: 90vh; /* Max height relative to the viewport height */
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+}
+
+.carousel img {
+  display: block;
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain; /* Ensure the image scales correctly without cropping */
+  margin: auto; /* Center the image horizontally and vertically */
+}
+
+.carousel img.active {
+  display: block;
+}
+
+.mono-carousel-container.hidden {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.trigger-image {
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+.alt-text {
+  padding: 10px;
+  font-size: 16px;
+  color: #fff; /* Adjust text color to suit your design */
+  background-color: rgba(0, 0, 0, 0.6); /* Optional: background for readability */
+  text-align: left;
+}
